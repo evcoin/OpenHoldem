@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="OpenHoldem">
+</Property><Property Name="Solution File" Value="C:\OH Source\trunk\OpenHoldem\OpenHoldem.sln">
+</Property><Property Name="Date" Value="Thursday, January 22, 2015">
+</Property><Property Name="Time" Value="13:19 PM">
+</Property></Properties><Event ErrorLevel="3" Project="OpenHoldem" Source="OpenHoldem.vcproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="" Source="OpenHoldem.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="OpenHoldem.sln" Description="Converted">
+</Event></UpgradeLog>
