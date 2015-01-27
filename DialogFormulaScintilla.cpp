@@ -2015,6 +2015,9 @@ void CDlgFormulaScintilla::PopulateSymbols()
 	AddSymbol(parent, "ispl", "(lim==1)");
 	AddSymbol(parent, "isfl", "(lim==2)");
 	AddSymbol(parent, "istournament", "true if a tournament table is detected");
+  ddSymbol(parent, "isdon", "true if a double-or-nothing tournament is detected");
+  ddSymbol(parent, "ismtt", "true if a multi-table tournament is detected");
+  ddSymbol(parent, "issng", "true if a single-table tournament is detected");
   AddSymbol(parent, "isfinaltable", "true if you are playing the finaltable of an MTT and the tables can be visually distinguished.");
 
 	mainParent = parent = AddSymbolTitle("Hand Rank", NULL, hCatItem);
@@ -2311,7 +2314,8 @@ void CDlgFormulaScintilla::PopulateSymbols()
 	AddSymbol(parent, "avgbetspf", "average number of bets preflop for the last y minutes");
 	AddSymbol(parent, "tablepfr", "pfr percentage preflop for the last y minutes");
 	AddSymbol(parent, "maxbalance", "my highest balance during the session");
-	AddSymbol(parent, "handsplayed", "number of hands played this session");
+	AddSymbol(parent, "handsplayed", "number of hands played this session by this OpenHoldem instance");
+  AddSymbol(parent, "handsplayed_headsup", "number of consecutive hands played headsup");
 	AddSymbol(parent, "balance_rankx (x=0-9)", "ranked list of player balances (includes players not currently in hand, and includes currentbet for each player as well).  rank0 has highest balance.");
 
 	PopulatePokerTrackerSymbols();	

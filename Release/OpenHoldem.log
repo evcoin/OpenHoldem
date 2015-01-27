@@ -1,0 +1,256 @@
+﻿Build started 1/25/2015 8:34:57 PM.
+     1>Project "C:\OH Source\trunk\OpenHoldem\OpenHoldem.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\OpenHoldem.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"..\spirit-1.8.5-miniboost" /I..\pokereval\include /I..\postgres /I..\winmgr /I"..\hscroll-list-box" /Zi /nologo /W3 /WX- /Ox /Ob2 /Oi /Ot /Oy- /GT /GL /D WIN32 /D _WINDOWS /D NDEBUG /D OEMRESOURCE /D _CRT_SECURE_NO_DEPRECATE /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\OpenHoldem.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CHandHistoryWriter.cpp CSymbolEngineCasino.cpp CWhiteInfoBox.cpp Singletons.cpp COpenHoldemStatusbar.cpp DialogFormulaScintilla.cpp OpenHoldemView.cpp CEngineContainer.cpp CSymbolEngineAutoplayer.cpp CSymbolEnginePositions.cpp CSymbolEngineVariousDataLookup.cpp BringKeyboard.cpp CAutoplayer.cpp CCasinoInterface.cpp CScraperAccess.cpp MagicNumbers.cpp CParseTreeNode.cpp CAutoplayerTrace.cpp CFunction.cpp CFunctionCollection.cpp
+         CHandHistoryWriter.cpp
+         CSymbolEngineCasino.cpp
+         CWhiteInfoBox.cpp
+         Singletons.cpp
+     1>c:\oh source\trunk\openholdem\CFormulaParser.h(17): warning C4005: '_AFXDLL' : macro redefinition
+                 command-line arguments :  see previous definition of '_AFXDLL'
+         COpenHoldemStatusbar.cpp
+         DialogFormulaScintilla.cpp
+     1>c:\oh source\trunk\openholdem\..\PokerTracker_Query_Definitions\pokertracker_query_definitions.h(40): warning C4190: 'PT_DLL_GetDescription' has C-linkage specified, but returns UDT 'ATL::CStringT<BaseType,StringTraits>' which is incompatible with C
+                 with
+                 [
+                     BaseType=char,
+                     StringTraits=StrTraitMFC_DLL<char>
+                 ]
+     1>c:\oh source\trunk\openholdem\..\PokerTracker_Query_Definitions\pokertracker_query_definitions.h(41): warning C4190: 'PT_DLL_GetBasicSymbolNameWithoutPTPrefix' has C-linkage specified, but returns UDT 'ATL::CStringT<BaseType,StringTraits>' which is incompatible with C
+                 with
+                 [
+                     BaseType=char,
+                     StringTraits=StrTraitMFC_DLL<char>
+                 ]
+     1>c:\oh source\trunk\openholdem\..\PokerTracker_Query_Definitions\pokertracker_query_definitions.h(52): warning C4190: 'PT_DLL_GetQuery' has C-linkage specified, but returns UDT 'ATL::CStringT<BaseType,StringTraits>' which is incompatible with C
+                 with
+                 [
+                     BaseType=char,
+                     StringTraits=StrTraitMFC_DLL<char>
+                 ]
+         OpenHoldemView.cpp
+         CEngineContainer.cpp
+     1>c:\oh source\trunk\openholdem\CFormulaParser.h(17): warning C4005: '_AFXDLL' : macro redefinition
+                 command-line arguments :  see previous definition of '_AFXDLL'
+         CSymbolEngineAutoplayer.cpp
+         CSymbolEnginePositions.cpp
+         CSymbolEngineVariousDataLookup.cpp
+     1>c:\oh source\trunk\openholdem\CFormulaParser.h(17): warning C4005: '_AFXDLL' : macro redefinition
+                 command-line arguments :  see previous definition of '_AFXDLL'
+         BringKeyboard.cpp
+         CAutoplayer.cpp
+         CCasinoInterface.cpp
+         CScraperAccess.cpp
+         MagicNumbers.cpp
+         CParseTreeNode.cpp
+         CAutoplayerTrace.cpp
+         CFunction.cpp
+         CFunctionCollection.cpp
+     1>c:\oh source\trunk\openholdem\CFormulaParser.h(17): warning C4005: '_AFXDLL' : macro redefinition
+                 command-line arguments :  see previous definition of '_AFXDLL'
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"..\spirit-1.8.5-miniboost" /I..\pokereval\include /I..\postgres /I..\winmgr /I"..\hscroll-list-box" /Zi /nologo /W3 /WX- /Ox /Ob2 /Oi /Ot /Oy- /GT /GL /D WIN32 /D _WINDOWS /D NDEBUG /D OEMRESOURCE /D _CRT_SECURE_NO_DEPRECATE /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\OpenHoldem.pch" /Fo"Release\CTablemap1.obj" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\CTablemap\CTablemap.cpp
+         CTablemap.cpp
+     1>..\CTablemap\CTablemap.cpp(983): warning C4018: '<=' : signed/unsigned mismatch
+     1>..\CTablemap\CTablemap.cpp(984): warning C4018: '<=' : signed/unsigned mismatch
+     1>..\CTablemap\CTablemap.cpp(1072): warning C4018: '<=' : signed/unsigned mismatch
+     1>..\CTablemap\CTablemap.cpp(1073): warning C4018: '<=' : signed/unsigned mismatch
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _AFXDLL /l"0x0409" /IRelease\ /nologo /fo"Release\OpenHoldem.res" OpenHoldem.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\OH Source\trunk\Release\OpenHoldem.exe" /INCREMENTAL:NO /NOLOGO imm32.lib psapi.lib ..\dbghelp\dbghelp.lib ..\scintilla\bin\SciLexer.lib "..\pokereval\Release\poker-eval.lib" ..\lib\libpq.lib ..\lib\PerlEz.lib "C:\OH Source\trunk\Release\pokertracker_query_definitions.lib" /MANIFEST:NO /PDB:"C:\OH Source\trunk\Release\OpenHoldem.pdb" /SUBSYSTEM:WINDOWS /STACK:"8388608" /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\OH Source\trunk\Release\OpenHoldem.lib" /MACHINE:X86 Release\OpenHoldem.res
+         Release\Card.obj
+         Release\CBlindGuesser.obj
+         Release\CBlindLevels.obj
+         Release\CFileSystemMonitor.obj
+         Release\CFlagsToolbar.obj
+         Release\CHandHistoryAction.obj
+         Release\CHandHistoryDealPhase.obj
+         Release\CHandHistoryShowdown.obj
+         Release\CHandHistoryUncontested.obj
+         Release\CHandHistoryWriter.obj
+         Release\CHandresetDetector.obj
+         Release\CHeartbeatThread.obj
+         Release\CLevDistance.obj
+         Release\CLimitScraper.obj
+         Release\CMyMutex.obj
+         Release\COcclusionCheck.obj
+         Release\CPlayer.obj
+         Release\CPopupHandler.obj
+         Release\CPreferences.obj
+         Release\crc32hash.obj
+         Release\CSelftestParserEvaluator.obj
+         Release\CSymbolEngineCasino.obj
+         Release\CSymbolEngineChairs.obj
+         Release\CSymbolEngineGameType.obj
+         Release\CSymbolEngineICM.obj
+         Release\CSymbolengineOpenPPL.obj
+         Release\CSymbolEnginePokerAction.obj
+         Release\CSymbolengineTableStats.obj
+         Release\CSymbolEngineVersus.obj
+         Release\CTableState.obj
+         Release\CValidator.obj
+         Release\CWhiteInfoBox.obj
+         Release\debug.obj
+         Release\MainFrm.obj
+         Release\MD5_Checksum.obj
+         Release\Median.obj
+         Release\MemoryLogging.obj
+         Release\OpenHoldem.obj
+         Release\OpenHoldemDoc.obj
+         Release\Singletons.obj
+         Release\stdafx.obj
+         Release\SizerBar.obj
+         Release\WinMgr.obj
+         Release\WinRect.obj
+         Release\HScrollListBox.obj
+         Release\CompareArgs.obj
+         Release\CTransform.obj
+         Release\lookup3.obj
+         Release\LPyramid.obj
+         Release\Metric.obj
+         Release\RGBAImage.obj
+         Release\COpenHoldemTitle.obj
+         Release\DialogSAPrefs10.obj
+         Release\DialogSAPrefs11.obj
+         Release\DialogSAPrefs12.obj
+         Release\DialogSAPrefs13.obj
+         Release\DialogSAPrefs14.obj
+         Release\DialogSAPrefs15.obj
+         Release\DialogSAPrefs16.obj
+         Release\DialogSAPrefs17.obj
+         Release\DialogSAPrefs18.obj
+         Release\DialogSAPrefs19.obj
+         Release\DialogSAPrefs2.obj
+         Release\DialogSAPrefs20.obj
+         Release\DialogSAPrefs21.obj
+         Release\DialogSAPrefs22.obj
+         Release\DialogSAPrefs3.obj
+         Release\DialogSAPrefs4.obj
+         Release\DialogSAPrefs6.obj
+         Release\DialogSAPrefs7.obj
+         Release\DialogSAPrefs8.obj
+         Release\DialogSAPrefs9.obj
+         Release\SAPrefsDialog.obj
+         Release\SAPrefsStatic.obj
+         Release\SAPrefsSubDlg.obj
+         Release\COpenHoldemStatusbar.obj
+         Release\DialogFormulaScintilla.obj
+         Release\DialogHandList.obj
+         Release\DialogNew.obj
+         Release\DialogRename.obj
+         Release\DialogScraperOutput.obj
+         Release\MyCToolBar.obj
+         Release\OH_MessageBox.obj
+         Release\OpenHoldemView.obj
+         Release\ScintillaWnd.obj
+         Release\VerifyFunctionAndListNames.obj
+         Release\COpenHoldemHopperCommunication.obj
+         Release\CSessionCounter.obj
+         Release\CSharedMem.obj
+         Release\CBetroundCalculator.obj
+         Release\CEngineContainer.obj
+         "Release\Chair$Symbols.obj"
+         Release\UnknownSymbols.obj
+         Release\CGameState.obj
+         Release\CSymbolEngineActiveDealtPlaying.obj
+         Release\CSymbolEngineAutoplayer.obj
+         Release\CSymbolEngineBlinds.obj
+         Release\CSymbolEngineCards.obj
+         Release\CSymbolEngineChipAmounts.obj
+         Release\CSymbolengineDealerchair.obj
+         Release\CSymbolEngineEventLogging.obj
+         Release\CSymbolEngineHandrank.obj
+         Release\CSymbolEngineHistory.obj
+         Release\CSymbolEngineIniFunctions.obj
+         Release\CSymbolEngineIsOmaha.obj
+         Release\CSymbolEngineIsTournament.obj
+         Release\CSymbolEngineMemorySymbols.obj
+         Release\CSymbolEngineOpenPPLHandAndBoardExpression.obj
+         Release\CSymbolEngineOpenPPLUserVariables.obj
+         Release\CSymbolEnginePokerTracker.obj
+         Release\CSymbolEnginePokerval.obj
+         Release\CSymbolEnginePositions.obj
+         Release\CSymbolEnginePrwin.obj
+         Release\CSymbolEngineRaisersCallers.obj
+         Release\CSymbolEngineRandom.obj
+         Release\CSymbolEngineReplayFrameController.obj
+         Release\CSymbolEngineTableLimits.obj
+         Release\CSymbolEngineTime.obj
+         Release\CSymbolEngineUserchair.obj
+         Release\CSymbolEngineVariousDataLookup.obj
+         Release\CVirtualSymbolEngine.obj
+         Release\CConfigurationCheck.obj
+         Release\CProblemSolver.obj
+         Release\CVersionInfo.obj
+         Release\BringKeyboard.obj
+         Release\CAutoplayer.obj
+         Release\CAutoplayerFunctions.obj
+         Release\CCasinoInterface.obj
+         Release\CRebuyManagement.obj
+         Release\CStableFramesCounter.obj
+         Release\PokerChat.obj
+         Release\SwagAdjustment.obj
+         Release\CAutoConnector.obj
+         Release\CAutoConnectorThread.obj
+         Release\CTableMapLoader.obj
+         Release\CTablePositioner.obj
+         Release\CDllExtension.obj
+         Release\CPerl.obj
+         Release\CPokerTrackerLookUp.obj
+         Release\CPokerTrackerThread.obj
+         Release\CIteratorThread.obj
+         Release\PrWinHandranges.obj
+         Release\CReplayFrame.obj
+         Release\Bitmaps.obj
+         Release\CLazyScraper.obj
+         Release\CScraper.obj
+         Release\CScraperAccess.obj
+         Release\CScraperPreprocessor.obj
+         Release\CardFunctions.obj
+         Release\CFilenames.obj
+         Release\CStringHashtableTemplate.obj
+         Release\CStringMatch.obj
+         Release\MagicNumbers.obj
+         Release\NumericalFunctions.obj
+         Release\StringFunctions.obj
+         Release\WindowFunctions.obj
+         Release\CFormulaFileSplitter.obj
+         Release\CFormulaParser.obj
+         Release\CParseErrors.obj
+         Release\CParserSymbolTable.obj
+         Release\CParseTreeNode.obj
+         Release\CParseTreeRotator.obj
+         Release\CTokenizer.obj
+         Release\TokenizerConstants.obj
+         Release\CTablemapAccess.obj
+         Release\CTablemapCompletenessChecker.obj
+         Release\CAutoplayerTrace.obj
+         Release\CDebugTab.obj
+         Release\CFunction.obj
+         Release\CFunctionCollection.obj
+         Release\COHScriptList.obj
+         Release\COHScriptObject.obj
+         Release\CTablemap1.obj
+         "C:\OH Source\trunk\Release\Perl_Callback.lib"
+         "C:\OH Source\trunk\Release\PokerTracker_Query_Definitions.lib"
+         "C:\OH Source\trunk\Release\Reference Keyboard DLL.lib"
+         "C:\OH Source\trunk\Release\Reference Mouse DLL.lib"
+         "C:\OH Source\trunk\pokereval\Release\poker-eval.lib"
+         "C:\OH Source\trunk\scintilla\bin\SciLexer.lib"
+         Card.obj : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+            Creating library C:\OH Source\trunk\Release\OpenHoldem.lib and object C:\OH Source\trunk\Release\OpenHoldem.exp
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+         OpenHoldem.vcxproj -> C:\OH Source\trunk\Release\OpenHoldem.exe
+       FinalizeBuildStatus:
+         Deleting file "Release\OpenHoldem.unsuccessfulbuild".
+         Touching "Release\OpenHoldem.lastbuildstate".
+     1>Done Building Project "C:\OH Source\trunk\OpenHoldem\OpenHoldem.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:37.02

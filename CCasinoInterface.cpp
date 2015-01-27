@@ -23,6 +23,7 @@
 #include "CPreferences.h"
 #include "CScraper.h"
 #include "CScraperAccess.h"
+#include "CSymbolEngineCasino.h"
 #include "CSymbolEngineChipAmounts.h"
 #include "CSymbolEngineHistory.h"
 #include "CSymbolEngineTime.h"
@@ -53,7 +54,6 @@ CCasinoInterface::~CCasinoInterface() {
 bool CCasinoInterface::TableLostFocus() {
 	return (GetForegroundWindow() != p_autoconnector->attached_hwnd());
 }
-
 
 void CCasinoInterface::ClickRect(RECT rect) {
 	write_log(preferences.debug_autoplayer(), "[CasinoInterface] Calling mouse.dll to single click button: %d,%d %d,%d\n", 
@@ -150,7 +150,7 @@ bool CCasinoInterface::UseSliderForAllin() {
 		return false;
 	}
 
-	p_autoplayer_trace->Print(ActionConstantNames(k_autoplayer_function_allin));
+	p_autoplayer_trace->Print(ActionConstantNames(k_autoplayer_function_allin), true);
 	write_log(preferences.debug_autoplayer(), "[CasinoInterface] Jam complete: %d,%d,%d,%d\n", drag_region.left, drag_region.top, drag_region.right, drag_region.bottom);
 
 	// reset elapsedauto symbol
@@ -177,6 +177,15 @@ bool CCasinoInterface::CloseWindow() {
 	ClickRect(close_region);
 
 	return true;
+}
+
+void CCasinoInterface::PressTabToSwitchOHReplayToNextFrame() {
+  RECT	rect_somewhere = {1, 1, 2, 2};
+	POINT	cur_pos = {0};
+
+  assert(p_symbol_engine_casino->ConnectedToOHReplay());
+  (theApp._dll_keyboard_sendstring) (p_autoconnector->attached_hwnd(), 
+    rect_somewhere, "\t", false, GetFocus(), cur_pos);
 }
 
 bool CCasinoInterface::EnterChatMessage(CString &message) {
@@ -273,7 +282,7 @@ bool CCasinoInterface::EnterBetsize(double total_betsize_in_dollars)
 	POINT			cur_pos = {0};
 	bool			lost_focus = false;
 	POINT			point_null = {-1, -1};
-	CString			swag_amt;
+	CString		swag_amt;
 
 	write_log(preferences.debug_autoplayer(), "[CasinoInterface] Starting DoSwag...\n");
 
@@ -356,7 +365,7 @@ bool CCasinoInterface::EnterBetsize(double total_betsize_in_dollars)
 			return false;
 		}
 		
-		p_autoplayer_trace->Print(ActionConstantNames(k_autoplayer_function_betsize));
+		p_autoplayer_trace->Print(ActionConstantNames(k_autoplayer_function_betsize), true);
 
 	}
 	int betround = p_betround_calculator->betround();

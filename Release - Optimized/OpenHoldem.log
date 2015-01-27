@@ -1,0 +1,289 @@
+﻿Build started 1/24/2015 4:23:01 PM.
+     1>Project "C:\OH Source\trunk\OpenHoldem\OpenHoldem.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release - Optimized\OpenHoldem.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"..\spirit-1.8.5-miniboost" /I..\pokereval\include /I..\postgres /I..\winmgr /I"..\hscroll-list-box" /Zi /nologo /W3 /WX- /Ox /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D OEMRESOURCE /D _CRT_SECURE_NO_DEPRECATE /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release - Optimized\OpenHoldem.pch" /Fo"Release - Optimized\\" /Fd"Release - Optimized\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"..\spirit-1.8.5-miniboost" /I..\pokereval\include /I..\postgres /I..\winmgr /I"..\hscroll-list-box" /Zi /nologo /W3 /WX- /Ox /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D OEMRESOURCE /D _CRT_SECURE_NO_DEPRECATE /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release - Optimized\OpenHoldem.pch" /Fo"Release - Optimized\\" /Fd"Release - Optimized\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Card.cpp CBlindGuesser.cpp CBlindLevels.cpp CFileSystemMonitor.cpp CFlagsToolbar.cpp CHandHistoryAction.cpp CHandHistoryDealPhase.cpp CHandHistoryShowdown.cpp CHandHistoryUncontested.cpp CHandHistoryWriter.cpp CHandresetDetector.cpp CHeartbeatThread.cpp CLevDistance.cpp CLimitScraper.cpp CMyMutex.cpp COcclusionCheck.cpp CPlayer.cpp CPopupHandler.cpp CPreferences.cpp crc32hash.cpp CSelftestParserEvaluator.cpp CSymbolEngineCasino.cpp CSymbolEngineChairs.cpp CSymbolEngineGameType.cpp CSymbolEngineICM.cpp CSymbolengineOpenPPL.cpp CSymbolEnginePokerAction.cpp CSymbolengineTableStats.cpp CSymbolEngineVersus.cpp CTableState.cpp CValidator.cpp CWhiteInfoBox.cpp debug.cpp MainFrm.cpp MD5_Checksum.cpp Median.cpp MemoryLogging.cpp OpenHoldem.cpp OpenHoldemDoc.cpp Singletons.cpp ..\winmgr\SizerBar.cpp ..\winmgr\WinMgr.cpp ..\winmgr\WinRect.cpp "..\hscroll-list-box\HScrollListBox.cpp" ..\CTransform\pdiff\CompareArgs.cpp ..\CTransform\CTransform.cpp ..\CTransform\hash\lookup3.cpp ..\CTransform\pdiff\LPyramid.cpp ..\CTransform\pdiff\Metric.cpp ..\CTransform\pdiff\RGBAImage.cpp COpenHoldemTitle.cpp DialogSAPrefs10.cpp DialogSAPrefs11.cpp DialogSAPrefs12.cpp DialogSAPrefs13.cpp DialogSAPrefs14.cpp DialogSAPrefs15.cpp DialogSAPrefs16.cpp DialogSAPrefs17.cpp DialogSAPrefs18.cpp DialogSAPrefs19.cpp DialogSAPrefs2.cpp DialogSAPrefs20.cpp DialogSAPrefs21.cpp DialogSAPrefs22.cpp DialogSAPrefs3.cpp DialogSAPrefs4.cpp DialogSAPrefs6.cpp DialogSAPrefs7.cpp DialogSAPrefs8.cpp DialogSAPrefs9.cpp SAPrefsDialog.cpp SAPrefsStatic.cpp SAPrefsSubDlg.cpp COpenHoldemStatusbar.cpp DialogFormulaScintilla.cpp DialogHandList.cpp DialogNew.cpp DialogRename.cpp DialogScraperOutput.cpp MyCToolBar.cpp OH_MessageBox.cpp OpenHoldemView.cpp ScintillaWnd.cpp VerifyFunctionAndListNames.cpp COpenHoldemHopperCommunication.cpp CSessionCounter.cpp CSharedMem.cpp CBetroundCalculator.cpp CEngineContainer.cpp "Chair$Symbols.cpp" UnknownSymbols.cpp CGameState.cpp CSymbolEngineActiveDealtPlaying.cpp CSymbolEngineAutoplayer.cpp CSymbolEngineBlinds.cpp CSymbolEngineCards.cpp CSymbolEngineChipAmounts.cpp CSymbolengineDealerchair.cpp CSymbolEngineEventLogging.cpp CSymbolEngineHandrank.cpp CSymbolEngineHistory.cpp CSymbolEngineIniFunctions.cpp CSymbolEngineIsOmaha.cpp CSymbolEngineIsTournament.cpp CSymbolEngineMemorySymbols.cpp CSymbolEngineOpenPPLHandAndBoardExpression.cpp CSymbolEngineOpenPPLUserVariables.cpp CSymbolEnginePokerTracker.cpp CSymbolEnginePokerval.cpp CSymbolEnginePositions.cpp CSymbolEnginePrwin.cpp CSymbolEngineRaisersCallers.cpp CSymbolEngineRandom.cpp CSymbolEngineReplayFrameController.cpp CSymbolEngineTableLimits.cpp CSymbolEngineTime.cpp CSymbolEngineUserchair.cpp CSymbolEngineVariousDataLookup.cpp CVirtualSymbolEngine.cpp CConfigurationCheck.cpp CProblemSolver.cpp CVersionInfo.cpp BringKeyboard.cpp CAutoplayer.cpp CAutoplayerFunctions.cpp CCasinoInterface.cpp CRebuyManagement.cpp CStableFramesCounter.cpp PokerChat.cpp SwagAdjustment.cpp CAutoConnector.cpp CAutoConnectorThread.cpp CTableMapLoader.cpp CTablePositioner.cpp CDllExtension.cpp CPerl.cpp CPokerTrackerLookUp.cpp CPokerTrackerThread.cpp CIteratorThread.cpp PrWinHandranges.cpp CReplayFrame.cpp Bitmaps.cpp CLazyScraper.cpp CScraper.cpp CScraperAccess.cpp CScraperPreprocessor.cpp CardFunctions.cpp CFilenames.cpp CStringHashtableTemplate.cpp CStringMatch.cpp MagicNumbers.cpp NumericalFunctions.cpp StringFunctions.cpp WindowFunctions.cpp CFormulaFileSplitter.cpp CFormulaParser.cpp CParseErrors.cpp CParserSymbolTable.cpp CParseTreeNode.cpp CParseTreeRotator.cpp CTokenizer.cpp TokenizerConstants.cpp ..\CTablemap\CTablemapAccess.cpp CTablemapCompletenessChecker.cpp CAutoplayerTrace.cpp CDebugTab.cpp CFunction.cpp CFunctionCollection.cpp COHScriptList.cpp COHScriptObject.cpp
+         Card.cpp
+         CBlindGuesser.cpp
+         CBlindLevels.cpp
+         CFileSystemMonitor.cpp
+         CFlagsToolbar.cpp
+         CHandHistoryAction.cpp
+         CHandHistoryDealPhase.cpp
+         CHandHistoryShowdown.cpp
+     1>CHandHistoryShowdown.cpp(88): warning C4553: '==' : operator has no effect; did you intend '='?
+         CHandHistoryUncontested.cpp
+         CHandHistoryWriter.cpp
+         CHandresetDetector.cpp
+         CHeartbeatThread.cpp
+         CLevDistance.cpp
+         CLimitScraper.cpp
+         CMyMutex.cpp
+         COcclusionCheck.cpp
+         CPlayer.cpp
+         CPopupHandler.cpp
+         CPreferences.cpp
+         crc32hash.cpp
+         Generating Code...
+         Compiling...
+         CSelftestParserEvaluator.cpp
+         CSymbolEngineCasino.cpp
+         CSymbolEngineChairs.cpp
+         CSymbolEngineGameType.cpp
+         CSymbolEngineICM.cpp
+         CSymbolengineOpenPPL.cpp
+         CSymbolEnginePokerAction.cpp
+         CSymbolengineTableStats.cpp
+         CSymbolEngineVersus.cpp
+         CTableState.cpp
+         CValidator.cpp
+         CWhiteInfoBox.cpp
+         debug.cpp
+         MainFrm.cpp
+         MD5_Checksum.cpp
+         Median.cpp
+         MemoryLogging.cpp
+         OpenHoldem.cpp
+     1>c:\oh source\trunk\openholdem\CFormulaParser.h(17): warning C4005: '_AFXDLL' : macro redefinition
+                 command-line arguments :  see previous definition of '_AFXDLL'
+         OpenHoldemDoc.cpp
+     1>c:\oh source\trunk\openholdem\CFormulaParser.h(17): warning C4005: '_AFXDLL' : macro redefinition
+                 command-line arguments :  see previous definition of '_AFXDLL'
+         Singletons.cpp
+     1>c:\oh source\trunk\openholdem\CFormulaParser.h(17): warning C4005: '_AFXDLL' : macro redefinition
+                 command-line arguments :  see previous definition of '_AFXDLL'
+         Generating Code...
+         Compiling...
+         SizerBar.cpp
+         WinMgr.cpp
+         WinRect.cpp
+         HScrollListBox.cpp
+         CompareArgs.cpp
+         CTransform.cpp
+         lookup3.cpp
+         LPyramid.cpp
+         Metric.cpp
+     1>..\CTransform\pdiff\Metric.cpp(138): warning C4018: '<' : signed/unsigned mismatch
+         RGBAImage.cpp
+         COpenHoldemTitle.cpp
+         DialogSAPrefs10.cpp
+         DialogSAPrefs11.cpp
+         DialogSAPrefs12.cpp
+         DialogSAPrefs13.cpp
+         DialogSAPrefs14.cpp
+         DialogSAPrefs15.cpp
+         DialogSAPrefs16.cpp
+         DialogSAPrefs17.cpp
+         DialogSAPrefs18.cpp
+         Generating Code...
+         Compiling...
+         DialogSAPrefs19.cpp
+         DialogSAPrefs2.cpp
+         DialogSAPrefs20.cpp
+         DialogSAPrefs21.cpp
+         DialogSAPrefs22.cpp
+         DialogSAPrefs3.cpp
+         DialogSAPrefs4.cpp
+         DialogSAPrefs6.cpp
+         DialogSAPrefs7.cpp
+         DialogSAPrefs8.cpp
+         DialogSAPrefs9.cpp
+         SAPrefsDialog.cpp
+         SAPrefsStatic.cpp
+         SAPrefsSubDlg.cpp
+         COpenHoldemStatusbar.cpp
+         DialogFormulaScintilla.cpp
+     1>c:\oh source\trunk\openholdem\..\PokerTracker_Query_Definitions\pokertracker_query_definitions.h(40): warning C4190: 'PT_DLL_GetDescription' has C-linkage specified, but returns UDT 'ATL::CStringT<BaseType,StringTraits>' which is incompatible with C
+                 with
+                 [
+                     BaseType=char,
+                     StringTraits=StrTraitMFC_DLL<char>
+                 ]
+     1>c:\oh source\trunk\openholdem\..\PokerTracker_Query_Definitions\pokertracker_query_definitions.h(41): warning C4190: 'PT_DLL_GetBasicSymbolNameWithoutPTPrefix' has C-linkage specified, but returns UDT 'ATL::CStringT<BaseType,StringTraits>' which is incompatible with C
+                 with
+                 [
+                     BaseType=char,
+                     StringTraits=StrTraitMFC_DLL<char>
+                 ]
+     1>c:\oh source\trunk\openholdem\..\PokerTracker_Query_Definitions\pokertracker_query_definitions.h(52): warning C4190: 'PT_DLL_GetQuery' has C-linkage specified, but returns UDT 'ATL::CStringT<BaseType,StringTraits>' which is incompatible with C
+                 with
+                 [
+                     BaseType=char,
+                     StringTraits=StrTraitMFC_DLL<char>
+                 ]
+         DialogHandList.cpp
+         DialogNew.cpp
+         DialogRename.cpp
+         DialogScraperOutput.cpp
+         Generating Code...
+         Compiling...
+         MyCToolBar.cpp
+         OH_MessageBox.cpp
+     1>c:\oh source\trunk\openholdem\CFormulaParser.h(17): warning C4005: '_AFXDLL' : macro redefinition
+                 command-line arguments :  see previous definition of '_AFXDLL'
+         OpenHoldemView.cpp
+         ScintillaWnd.cpp
+         VerifyFunctionAndListNames.cpp
+         COpenHoldemHopperCommunication.cpp
+     1>c:\oh source\trunk\openholdem\CFormulaParser.h(17): warning C4005: '_AFXDLL' : macro redefinition
+                 command-line arguments :  see previous definition of '_AFXDLL'
+         CSessionCounter.cpp
+         CSharedMem.cpp
+         CBetroundCalculator.cpp
+         CEngineContainer.cpp
+     1>c:\oh source\trunk\openholdem\CFormulaParser.h(17): warning C4005: '_AFXDLL' : macro redefinition
+                 command-line arguments :  see previous definition of '_AFXDLL'
+         Chair$Symbols.cpp
+         UnknownSymbols.cpp
+         CGameState.cpp
+         CSymbolEngineActiveDealtPlaying.cpp
+         CSymbolEngineAutoplayer.cpp
+         CSymbolEngineBlinds.cpp
+         CSymbolEngineCards.cpp
+         CSymbolEngineChipAmounts.cpp
+         CSymbolengineDealerchair.cpp
+         CSymbolEngineEventLogging.cpp
+         Generating Code...
+         Compiling...
+         CSymbolEngineHandrank.cpp
+         CSymbolEngineHistory.cpp
+         CSymbolEngineIniFunctions.cpp
+     1>c:\oh source\trunk\openholdem\CFormulaParser.h(17): warning C4005: '_AFXDLL' : macro redefinition
+                 command-line arguments :  see previous definition of '_AFXDLL'
+         CSymbolEngineIsOmaha.cpp
+         CSymbolEngineIsTournament.cpp
+         CSymbolEngineMemorySymbols.cpp
+         CSymbolEngineOpenPPLHandAndBoardExpression.cpp
+         CSymbolEngineOpenPPLUserVariables.cpp
+         CSymbolEnginePokerTracker.cpp
+     1>c:\oh source\trunk\openholdem\CFormulaParser.h(17): warning C4005: '_AFXDLL' : macro redefinition
+                 command-line arguments :  see previous definition of '_AFXDLL'
+     1>c:\oh source\trunk\openholdem\..\PokerTracker_Query_Definitions\pokertracker_query_definitions.h(40): warning C4190: 'PT_DLL_GetDescription' has C-linkage specified, but returns UDT 'ATL::CStringT<BaseType,StringTraits>' which is incompatible with C
+                 with
+                 [
+                     BaseType=char,
+                     StringTraits=StrTraitMFC_DLL<char>
+                 ]
+     1>c:\oh source\trunk\openholdem\..\PokerTracker_Query_Definitions\pokertracker_query_definitions.h(41): warning C4190: 'PT_DLL_GetBasicSymbolNameWithoutPTPrefix' has C-linkage specified, but returns UDT 'ATL::CStringT<BaseType,StringTraits>' which is incompatible with C
+                 with
+                 [
+                     BaseType=char,
+                     StringTraits=StrTraitMFC_DLL<char>
+                 ]
+     1>c:\oh source\trunk\openholdem\..\PokerTracker_Query_Definitions\pokertracker_query_definitions.h(52): warning C4190: 'PT_DLL_GetQuery' has C-linkage specified, but returns UDT 'ATL::CStringT<BaseType,StringTraits>' which is incompatible with C
+                 with
+                 [
+                     BaseType=char,
+                     StringTraits=StrTraitMFC_DLL<char>
+                 ]
+         CSymbolEnginePokerval.cpp
+         CSymbolEnginePositions.cpp
+         CSymbolEnginePrwin.cpp
+         CSymbolEngineRaisersCallers.cpp
+         CSymbolEngineRandom.cpp
+         CSymbolEngineReplayFrameController.cpp
+         CSymbolEngineTableLimits.cpp
+         CSymbolEngineTime.cpp
+         CSymbolEngineUserchair.cpp
+         CSymbolEngineVariousDataLookup.cpp
+     1>c:\oh source\trunk\openholdem\CFormulaParser.h(17): warning C4005: '_AFXDLL' : macro redefinition
+                 command-line arguments :  see previous definition of '_AFXDLL'
+         CVirtualSymbolEngine.cpp
+         Generating Code...
+         Compiling...
+         CConfigurationCheck.cpp
+         CProblemSolver.cpp
+         CVersionInfo.cpp
+         BringKeyboard.cpp
+     1>BringKeyboard.cpp(35): error C2039: 'isbring' : is not a member of 'CSymbolEngineAutoplayer'
+                 c:\oh source\trunk\openholdem\CSymbolEngineAutoplayer.h(22) : see declaration of 'CSymbolEngineAutoplayer'
+         CAutoplayer.cpp
+         CAutoplayerFunctions.cpp
+         CCasinoInterface.cpp
+         CRebuyManagement.cpp
+         CStableFramesCounter.cpp
+         PokerChat.cpp
+         SwagAdjustment.cpp
+         CAutoConnector.cpp
+         CAutoConnectorThread.cpp
+         CTableMapLoader.cpp
+         CTablePositioner.cpp
+         CDllExtension.cpp
+         CPerl.cpp
+         CPokerTrackerLookUp.cpp
+         CPokerTrackerThread.cpp
+     1>c:\oh source\trunk\openholdem\..\PokerTracker_Query_Definitions\pokertracker_query_definitions.h(40): warning C4190: 'PT_DLL_GetDescription' has C-linkage specified, but returns UDT 'ATL::CStringT<BaseType,StringTraits>' which is incompatible with C
+                 with
+                 [
+                     BaseType=char,
+                     StringTraits=StrTraitMFC_DLL<char>
+                 ]
+     1>c:\oh source\trunk\openholdem\..\PokerTracker_Query_Definitions\pokertracker_query_definitions.h(41): warning C4190: 'PT_DLL_GetBasicSymbolNameWithoutPTPrefix' has C-linkage specified, but returns UDT 'ATL::CStringT<BaseType,StringTraits>' which is incompatible with C
+                 with
+                 [
+                     BaseType=char,
+                     StringTraits=StrTraitMFC_DLL<char>
+                 ]
+     1>c:\oh source\trunk\openholdem\..\PokerTracker_Query_Definitions\pokertracker_query_definitions.h(52): warning C4190: 'PT_DLL_GetQuery' has C-linkage specified, but returns UDT 'ATL::CStringT<BaseType,StringTraits>' which is incompatible with C
+                 with
+                 [
+                     BaseType=char,
+                     StringTraits=StrTraitMFC_DLL<char>
+                 ]
+         CIteratorThread.cpp
+         Generating Code...
+         Compiling...
+         PrWinHandranges.cpp
+         CReplayFrame.cpp
+         Bitmaps.cpp
+         CLazyScraper.cpp
+         CScraper.cpp
+         CScraperAccess.cpp
+         CScraperPreprocessor.cpp
+         CardFunctions.cpp
+         CFilenames.cpp
+         CStringHashtableTemplate.cpp
+         CStringMatch.cpp
+         MagicNumbers.cpp
+         NumericalFunctions.cpp
+         StringFunctions.cpp
+         WindowFunctions.cpp
+         CFormulaFileSplitter.cpp
+     1>c:\oh source\trunk\openholdem\CFormulaFileSplitter.h(17): warning C4005: '_AFXDLL' : macro redefinition
+                 command-line arguments :  see previous definition of '_AFXDLL'
+     1>CFormulaFileSplitter.cpp(65): warning C4101: 'e' : unreferenced local variable
+         CFormulaParser.cpp
+     1>c:\oh source\trunk\openholdem\CFormulaParser.h(17): warning C4005: '_AFXDLL' : macro redefinition
+                 command-line arguments :  see previous definition of '_AFXDLL'
+         CParseErrors.cpp
+     1>c:\oh source\trunk\openholdem\CFormulaParser.h(17): warning C4005: '_AFXDLL' : macro redefinition
+                 command-line arguments :  see previous definition of '_AFXDLL'
+         CParserSymbolTable.cpp
+         CParseTreeNode.cpp
+         Generating Code...
+         Compiling...
+         CParseTreeRotator.cpp
+         CTokenizer.cpp
+         TokenizerConstants.cpp
+         CTablemapAccess.cpp
+         CTablemapCompletenessChecker.cpp
+         CAutoplayerTrace.cpp
+     1>CAutoplayerTrace.cpp(204): warning C4101: 'nowtime' : unreferenced local variable
+         CDebugTab.cpp
+         CFunction.cpp
+         CFunctionCollection.cpp
+     1>c:\oh source\trunk\openholdem\CFormulaParser.h(17): warning C4005: '_AFXDLL' : macro redefinition
+                 command-line arguments :  see previous definition of '_AFXDLL'
+         COHScriptList.cpp
+         COHScriptObject.cpp
+     1>c:\oh source\trunk\openholdem\CFormulaParser.h(17): warning C4005: '_AFXDLL' : macro redefinition
+                 command-line arguments :  see previous definition of '_AFXDLL'
+         Generating Code...
+     1>Done Building Project "C:\OH Source\trunk\OpenHoldem\OpenHoldem.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:55.02

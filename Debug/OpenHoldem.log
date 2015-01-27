@@ -1,0 +1,198 @@
+﻿Build started 1/25/2015 8:34:16 PM.
+     1>Project "C:\OH Source\trunk\OpenHoldem\OpenHoldem.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\OpenHoldem.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\OH Source\trunk\Debug\OpenHoldem.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\Visual Leak Detector\lib\Win32" msvcrtd.lib imm32.lib psapi.lib ..\dbghelp\dbghelp.lib ..\scintilla\bin\SciLexer.lib "..\pokereval\Release\poker-eval.lib" ..\lib\libpq.lib ..\lib\PerlEz.lib "C:\OH Source\trunk\Debug\pokertracker_query_definitions.lib" /NODEFAULTLIB:libc.lib /NODEFAULTLIB:libcmt.lib /NODEFAULTLIB:msvcrt.lib /NODEFAULTLIB:libcd.lib /MANIFEST /ManifestFile:"Debug\OpenHoldem.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\OH Source\trunk\Debug\OpenHoldem.pdb" /SUBSYSTEM:WINDOWS /STACK:"8388608" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\OH Source\trunk\Debug\OpenHoldem.lib" /MACHINE:X86 Debug\OpenHoldem.res
+         Debug\OpenHoldem.exe.embed.manifest.res
+         Debug\Card.obj
+         Debug\CBlindGuesser.obj
+         Debug\CBlindLevels.obj
+         Debug\CFileSystemMonitor.obj
+         Debug\CFlagsToolbar.obj
+         Debug\CHandHistoryAction.obj
+         Debug\CHandHistoryDealPhase.obj
+         Debug\CHandHistoryShowdown.obj
+         Debug\CHandHistoryUncontested.obj
+         Debug\CHandHistoryWriter.obj
+         Debug\CHandresetDetector.obj
+         Debug\CHeartbeatThread.obj
+         Debug\CLevDistance.obj
+         Debug\CLimitScraper.obj
+         Debug\CMyMutex.obj
+         Debug\COcclusionCheck.obj
+         Debug\CPlayer.obj
+         Debug\CPopupHandler.obj
+         Debug\CPreferences.obj
+         Debug\crc32hash.obj
+         Debug\CSelftestParserEvaluator.obj
+         Debug\CSymbolEngineCasino.obj
+         Debug\CSymbolEngineChairs.obj
+         Debug\CSymbolEngineGameType.obj
+         Debug\CSymbolEngineICM.obj
+         Debug\CSymbolengineOpenPPL.obj
+         Debug\CSymbolEnginePokerAction.obj
+         Debug\CSymbolengineTableStats.obj
+         Debug\CSymbolEngineVersus.obj
+         Debug\CTableState.obj
+         Debug\CValidator.obj
+         Debug\CWhiteInfoBox.obj
+         Debug\debug.obj
+         Debug\MainFrm.obj
+         Debug\MD5_Checksum.obj
+         Debug\Median.obj
+         Debug\MemoryLogging.obj
+         Debug\OpenHoldem.obj
+         Debug\OpenHoldemDoc.obj
+         Debug\Singletons.obj
+         Debug\stdafx.obj
+         Debug\SizerBar.obj
+         Debug\WinMgr.obj
+         Debug\WinRect.obj
+         Debug\HScrollListBox.obj
+         Debug\CompareArgs.obj
+         Debug\CTransform.obj
+         Debug\lookup3.obj
+         Debug\LPyramid.obj
+         Debug\Metric.obj
+         Debug\RGBAImage.obj
+         Debug\COpenHoldemTitle.obj
+         Debug\DialogSAPrefs10.obj
+         Debug\DialogSAPrefs11.obj
+         Debug\DialogSAPrefs12.obj
+         Debug\DialogSAPrefs13.obj
+         Debug\DialogSAPrefs14.obj
+         Debug\DialogSAPrefs15.obj
+         Debug\DialogSAPrefs16.obj
+         Debug\DialogSAPrefs17.obj
+         Debug\DialogSAPrefs19.obj
+         Debug\DialogSAPrefs2.obj
+         Debug\DialogSAPrefs20.obj
+         Debug\DialogSAPrefs21.obj
+         Debug\DialogSAPrefs22.obj
+         Debug\DialogSAPrefs3.obj
+         Debug\DialogSAPrefs4.obj
+         Debug\DialogSAPrefs6.obj
+         Debug\DialogSAPrefs8.obj
+         Debug\DialogSAPrefs9.obj
+         Debug\SAPrefsDialog.obj
+         Debug\SAPrefsStatic.obj
+         Debug\SAPrefsSubDlg.obj
+         Debug\COpenHoldemStatusbar.obj
+         Debug\DialogFormulaScintilla.obj
+         Debug\DialogHandList.obj
+         Debug\DialogNew.obj
+         Debug\DialogRename.obj
+         Debug\DialogScraperOutput.obj
+         Debug\MyCToolBar.obj
+         Debug\OH_MessageBox.obj
+         Debug\OpenHoldemView.obj
+         Debug\ScintillaWnd.obj
+         Debug\VerifyFunctionAndListNames.obj
+         Debug\COpenHoldemHopperCommunication.obj
+         Debug\CSessionCounter.obj
+         Debug\CSharedMem.obj
+         Debug\CBetroundCalculator.obj
+         Debug\CEngineContainer.obj
+         "Debug\Chair$Symbols.obj"
+         Debug\UnknownSymbols.obj
+         Debug\CGameState.obj
+         Debug\CSymbolEngineActiveDealtPlaying.obj
+         Debug\CSymbolEngineAutoplayer.obj
+         Debug\CSymbolEngineBlinds.obj
+         Debug\CSymbolEngineCards.obj
+         Debug\CSymbolEngineChipAmounts.obj
+         Debug\CSymbolengineDealerchair.obj
+         Debug\CSymbolEngineEventLogging.obj
+         Debug\CSymbolEngineHandrank.obj
+         Debug\CSymbolEngineHistory.obj
+         Debug\CSymbolEngineIniFunctions.obj
+         Debug\CSymbolEngineIsOmaha.obj
+         Debug\CSymbolEngineIsTournament.obj
+         Debug\CSymbolEngineMemorySymbols.obj
+         Debug\CSymbolEngineOpenPPLHandAndBoardExpression.obj
+         Debug\CSymbolEngineOpenPPLUserVariables.obj
+         Debug\CSymbolEnginePokerTracker.obj
+         Debug\CSymbolEnginePokerval.obj
+         Debug\CSymbolEnginePositions.obj
+         Debug\CSymbolEnginePrwin.obj
+         Debug\CSymbolEngineRaisersCallers.obj
+         Debug\CSymbolEngineRandom.obj
+         Debug\CSymbolEngineReplayFrameController.obj
+         Debug\CSymbolEngineTableLimits.obj
+         Debug\CSymbolEngineTime.obj
+         Debug\CSymbolEngineUserchair.obj
+         Debug\CSymbolEngineVariousDataLookup.obj
+         Debug\CVirtualSymbolEngine.obj
+         Debug\CConfigurationCheck.obj
+         Debug\CProblemSolver.obj
+         Debug\CVersionInfo.obj
+         Debug\BringKeyboard.obj
+         Debug\CAutoplayer.obj
+         Debug\CAutoplayerFunctions.obj
+         Debug\CCasinoInterface.obj
+         Debug\CRebuyManagement.obj
+         Debug\CStableFramesCounter.obj
+         Debug\PokerChat.obj
+         Debug\SwagAdjustment.obj
+         Debug\CAutoConnector.obj
+         Debug\CAutoConnectorThread.obj
+         Debug\CTableMapLoader.obj
+         Debug\CTablePositioner.obj
+         Debug\CDllExtension.obj
+         Debug\CPerl.obj
+         Debug\CPokerTrackerLookUp.obj
+         Debug\CPokerTrackerThread.obj
+         Debug\CIteratorThread.obj
+         Debug\PrWinHandranges.obj
+         Debug\CReplayFrame.obj
+         Debug\Bitmaps.obj
+         Debug\CLazyScraper.obj
+         Debug\CScraper.obj
+         Debug\CScraperAccess.obj
+         Debug\CScraperPreprocessor.obj
+         Debug\CardFunctions.obj
+         Debug\CFilenames.obj
+         Debug\CStringHashtableTemplate.obj
+         Debug\CStringMatch.obj
+         Debug\MagicNumbers.obj
+         Debug\NumericalFunctions.obj
+         Debug\StringFunctions.obj
+         Debug\WindowFunctions.obj
+         Debug\CFormulaFileSplitter.obj
+         Debug\CFormulaParser.obj
+         Debug\CParseErrors.obj
+         Debug\CParserSymbolTable.obj
+         Debug\CParseTreeNode.obj
+         Debug\CParseTreeRotator.obj
+         Debug\CTokenizer.obj
+         Debug\TokenizerConstants.obj
+         Debug\CTablemapAccess.obj
+         Debug\CTablemapCompletenessChecker.obj
+         Debug\CAutoplayerTrace.obj
+         Debug\CDebugTab.obj
+         Debug\CFunction.obj
+         Debug\CFunctionCollection.obj
+         Debug\COHScriptList.obj
+         Debug\COHScriptObject.obj
+         Debug\CTablemap1.obj
+         "C:\OH Source\trunk\Release\Perl_Callback.lib"
+         "C:\OH Source\trunk\Release\PokerTracker_Query_Definitions.lib"
+         "C:\OH Source\trunk\Release\Reference Keyboard DLL.lib"
+         "C:\OH Source\trunk\Release\Reference Mouse DLL.lib"
+         "C:\OH Source\trunk\pokereval\Release\poker-eval.lib"
+         "C:\OH Source\trunk\scintilla\bin\SciLexer.lib"
+     1>LINK : fatal error LNK1104: cannot open file 'C:\OH Source\trunk\Debug\pokertracker_query_definitions.lib'
+     1>Done Building Project "C:\OH Source\trunk\OpenHoldem\OpenHoldem.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.71
