@@ -2015,9 +2015,9 @@ void CDlgFormulaScintilla::PopulateSymbols()
 	AddSymbol(parent, "ispl", "(lim==1)");
 	AddSymbol(parent, "isfl", "(lim==2)");
 	AddSymbol(parent, "istournament", "true if a tournament table is detected");
-  ddSymbol(parent, "isdon", "true if a double-or-nothing tournament is detected");
-  ddSymbol(parent, "ismtt", "true if a multi-table tournament is detected");
-  ddSymbol(parent, "issng", "true if a single-table tournament is detected");
+  AddSymbol(parent, "isdon", "true if a double-or-nothing tournament is detected");
+  AddSymbol(parent, "ismtt", "true if a multi-table tournament is detected");
+  AddSymbol(parent, "issng", "true if a single-table tournament is detected");
   AddSymbol(parent, "isfinaltable", "true if you are playing the finaltable of an MTT and the tables can be visually distinguished.");
 
 	mainParent = parent = AddSymbolTitle("Hand Rank", NULL, hCatItem);
@@ -2126,6 +2126,7 @@ void CDlgFormulaScintilla::PopulateSymbols()
 	AddSymbol(parent, "ishiflush", "true when you have the highest flush possible");
 
 	mainParent = parent = AddSymbolTitle("Players, Opponents", NULL, hCatItem);
+  AddSymbol(parent, "maxnplayersdealt", "maximum number of dealt players in this session");
 	AddSymbol(parent, "nplayersseated", "number of players seated (including you) (0-10)");
 	AddSymbol(parent, "nplayersactive", "number of players active (including you) (0-10)");
 	AddSymbol(parent, "nplayersdealt", "number of players dealt (including you) (0-10)");
@@ -2156,7 +2157,7 @@ void CDlgFormulaScintilla::PopulateSymbols()
 	AddSymbol(parent, "opponentsblindbits", "bits 9-0: 1=blind 0=notblind");
 	AddSymbol(parent, "opponent_chair_headsup",  "headsup opponent chair number (0-9)");
 
-	mainParent = parent = AddSymbolTitle("Flags", NULL, hCatItem);
+  mainParent = parent = AddSymbolTitle("Flags", NULL, hCatItem);
 	AddSymbol(parent, "fmax", "highest numbered flag button pressed");
 	AddSymbol(parent, "f0 - f19", "true if flag 0 - flag 19 button is pressed false otherwise");
 	AddSymbol(parent, "flagbits", "flag button bits 19-0 - 1=pressed 0=notpressed");
